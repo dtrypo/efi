@@ -1,0 +1,1 @@
+Greek Island Hotel Template.
