@@ -1,0 +1,32 @@
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 2rem; /* Place the button at the bottom of the page */
+    right: 3rem; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: $color_white; /* Set a background color */
+    color: $color_black; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 0.5rem 1rem 0 1rem; /* Some padding */
+    border-radius: 100%; /* Rounded corners */
+    box-shadow: 0 1rem 2rem rgba($color_black, 0.2);
+
+    &:hover {
+        opacity: 0.7;
+    }
+}
+
+.to-top-icon {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    background-image: linear-gradient(
+        to right,
+        $color-primary-light,
+        $color-primary-dark
+    );
+    -webkit-background-clip: text;
+    color: transparent;
+}
